@@ -3,6 +3,5 @@ services:
     name: medibuddy-smart-disease-predictor
     env: python
     plan: free
-    pythonVersion: 3.9.18
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
